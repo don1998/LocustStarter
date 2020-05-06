@@ -11,14 +11,12 @@ Docker Hub Repository: [Locust Starter Image] (https://hub.docker.com/repository
 
 ### Usage
 
-Getting the image:
+1. Getting the image:
 
 `docker pull dscotland98/locust_starter:latest`
 
-Executing the image:
+2. Executing the image:
 
 `docker run -e TARGET_URL=<endpoint_to_be_tested> -e LOCUSTFILE_PATH=/locustfiles/api_load_test.py -p 8089:8089  locust_starter`
 
-Navigate to and start the test:
-
-`http://localhost:8089/`
+3. Navigate to `http://localhost:8089/` and begin the test:
